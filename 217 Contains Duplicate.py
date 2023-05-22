@@ -24,14 +24,14 @@
 # 
 #print(a.containsDuplicate([1,2,3,4,4]))
 
-class Solution:
-      def containsDuplicate(self, nums):
-            
-            hashset= set()
-            
-            for n in nums:
-                  if n in hashset:
-                        return True
-                  hashset.add(n)
-                  
-            return False
+#class Solution:
+#      def containsDuplicate(self, nums):
+#            
+#            hashset= set()
+#            
+#            for n in nums:
+#                  if n in hashset:
+#                        return True
+#                  hashset.add(n)
+#                  
+#            return False
