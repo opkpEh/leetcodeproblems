@@ -7,7 +7,7 @@ int main()
 
        	int count=0;
   
-        for(int i=0; i<sizeof(arr)/sizeof(int); i++)
+        for(int i=0; i<arr.size(); i++)
         {
        		for(int j=0; j<i; j++)
                 {
