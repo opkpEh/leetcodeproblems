@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main()
+{
+	int testCase, nElephants, nCandies;
+	
+	std::cin>> testCase;
+	std::cin>> nElephants>> nCandies;
+
+	int candySplit[nCandies];
+
+	for(int i = 0; i< sizeof(candySplit) / sizeof(int); i++)
+	{
+		std::cout<<candySplit[i];
+	}
+	
+
+
+	return 0;
+
+}
