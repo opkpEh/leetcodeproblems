@@ -1,1 +1,1 @@
-it's judt an archive
+it's just an archive
